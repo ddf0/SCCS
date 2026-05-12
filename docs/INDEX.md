@@ -31,8 +31,9 @@ this index whenever you add, rename, or delete a public symbol.
 | `sccs.web.profile_tab` | [`api/sccs.web.profile_tab.md`](api/sccs.web.profile_tab.md) | `layout`, `empty_map`, `make_map` |
 | `sccs.web.calibration_tab` | [`api/sccs.web.calibration_tab.md`](api/sccs.web.calibration_tab.md) | `layout`, `empty_scatter`, `make_scatter` |
 | `sccs.web.callbacks` | [`api/sccs.web.callbacks.md`](api/sccs.web.callbacks.md) | `register_callbacks`, `TelemetryBuffer` |
-
-(Modules are added as they are implemented.)
+| `sccs.logging_csv` | [`api/sccs.logging_csv.md`](api/sccs.logging_csv.md) | `CSVLogger` |
+| `sccs.config` | [`api/sccs.config.md`](api/sccs.config.md) | `SCCSConfig`, `load_config` |
+| `sccs.app` | [`api/sccs.app.md`](api/sccs.app.md) | `main`, `build_application` |
 
 ## Firmware — `firmware/hccd/`
 

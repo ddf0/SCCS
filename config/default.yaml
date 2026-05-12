@@ -1,0 +1,20 @@
+i2c:
+  bus: 1
+  hccd_address: 0x10
+  magnetometer_address: 0x30
+
+pid:
+  kp: 0.05
+  ki: 0.02
+  kd: 0.001
+  dt_ms: 10
+  current_limit_a: 2.8
+
+control:
+  loop_period_ms: 10
+  max_consecutive_errors: 5
+
+web:
+  host: "0.0.0.0"
+  port: 8080
+  update_interval_ms: 200
