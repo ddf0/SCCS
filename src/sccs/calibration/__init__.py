@@ -1,0 +1,1 @@
+"""Magnetometer calibration — ellipsoid fitting."""

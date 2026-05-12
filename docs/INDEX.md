@@ -21,6 +21,7 @@ this index whenever you add, rename, or delete a public symbol.
 | `sccs.control.pid` | [`api/sccs.control.pid.md`](api/sccs.control.pid.md) | `PIDController` |
 | `sccs.control.state` | [`api/sccs.control.state.md`](api/sccs.control.state.md) | `SharedState`, `Status` |
 | `sccs.control.loop` | [`api/sccs.control.loop.md`](api/sccs.control.loop.md) | `ControlLoop`, `Profile` Protocol |
+| `sccs.calibration.ellipsoid` | [`api/sccs.calibration.ellipsoid.md`](api/sccs.calibration.ellipsoid.md) | `ellipsoid_fit` |
 
 (Modules are added as they are implemented.)
 
