@@ -1,0 +1,50 @@
+[build-system]
+requires = ["setuptools>=61", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "sccs"
+version = "0.1.0"
+description = "Source Current Control System for Helmholtz coils"
+readme = "README.md"
+license = { text = "AGPL-3.0-or-later" }
+authors = [{ name = "Vadim Elkin", email = "vadim.elkin.april@gmail.com" }]
+requires-python = ">=3.11"
+dependencies = [
+    "smbus2>=0.4",
+    "numpy>=1.26",
+    "scipy>=1.11",
+    "ppigrf>=2.1",
+    "skyfield>=1.49",
+    "plotly>=5.20",
+    "dash>=2.17",
+    "pyyaml>=6.0",
+    "pydantic>=2.7",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=8.0",
+    "pytest-mock>=3.12",
+    "ruff>=0.4",
+    "mypy>=1.10",
+]
+
+[project.scripts]
+sccs = "sccs.app:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["src"]
+
+[tool.ruff]
+line-length = 100
+target-version = "py311"
+
+[tool.mypy]
+python_version = "3.11"
+strict = true
+warn_unused_ignores = true

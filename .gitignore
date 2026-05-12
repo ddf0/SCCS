@@ -1,0 +1,28 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+*.egg-info/
+build/
+dist/
+.venv/
+venv/
+
+# IDE
+.vscode/
+.idea/
+
+# Arduino IDE intermediate output
+*.elf
+*.hex
+firmware/**/build/
+
+# Logs and artefacts
+logs/
+*.csv
+
+# Local configuration (calibration is per-host)
+config/calibration.yaml
