@@ -22,6 +22,9 @@ this index whenever you add, rename, or delete a public symbol.
 | `sccs.control.state` | [`api/sccs.control.state.md`](api/sccs.control.state.md) | `SharedState`, `Status` |
 | `sccs.control.loop` | [`api/sccs.control.loop.md`](api/sccs.control.loop.md) | `ControlLoop`, `Profile` Protocol |
 | `sccs.calibration.ellipsoid` | [`api/sccs.calibration.ellipsoid.md`](api/sccs.calibration.ellipsoid.md) | `ellipsoid_fit` |
+| `sccs.profile.fixed` | [`api/sccs.profile.fixed.md`](api/sccs.profile.fixed.md) | `FixedPointProfile` |
+| `sccs.profile.csv_replay` | [`api/sccs.profile.csv_replay.md`](api/sccs.profile.csv_replay.md) | `CSVProfile` |
+| `sccs.profile.orbital` | [`api/sccs.profile.orbital.md`](api/sccs.profile.orbital.md) | `OrbitalProfile` |
 
 (Modules are added as they are implemented.)
 
