@@ -25,8 +25,10 @@ this index whenever you add, rename, or delete a public symbol.
 | --- | --- |
 | `hccd.ino` (entry sketch) | [`firmware/overview.md`](firmware/overview.md) |
 | `protocol.h` / `protocol.cpp` | [`firmware/protocol.md`](firmware/protocol.md) |
-
-(Modules are added as they are implemented.)
+| `dac_driver.h` / `dac_driver.cpp` | [`firmware/dac_driver.md`](firmware/dac_driver.md) |
+| `i2c_slave.h` / `i2c_slave.cpp` | [`firmware/i2c_slave.md`](firmware/i2c_slave.md) |
+| `temp_sensor.h` / `temp_sensor.cpp` | [`firmware/temp_sensor.md`](firmware/temp_sensor.md) |
+| `failsafe.h` / `failsafe.cpp` | [`firmware/failsafe.md`](firmware/failsafe.md) |
 
 ## Architecture
 
