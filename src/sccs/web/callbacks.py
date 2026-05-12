@@ -97,7 +97,7 @@ def register_callbacks(app: Any) -> None:
     )
     def _push_gains(kp, ki, kd):
         app.command_queue.put({"cmd": "set_gains", "values": (kp, ki, kd)})
-        return no_update
+        return [no_update]
 
     @app.callback(
         Output("status-indicator", "children", allow_duplicate=True),
@@ -109,9 +109,9 @@ def register_callbacks(app: Any) -> None:
     def _buttons(_n_start, _n_stop, _n_estop):
         triggered = callback_context.triggered_id
         if triggered is None:
-            return no_update
+            return [no_update]
         app.command_queue.put({"cmd": triggered})
-        return f"Last action: {triggered}"
+        return [f"Last action: {triggered}"]
 
     @app.callback(
         Output("profile-form", "children"),
