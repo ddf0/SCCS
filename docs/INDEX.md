@@ -20,7 +20,11 @@ this index whenever you add, rename, or delete a public symbol.
 
 ## Firmware — `firmware/hccd/`
 
-(Sketches and modules are added as they are implemented.)
+| File | Page |
+| --- | --- |
+| `hccd.ino` (entry sketch) | [`firmware/overview.md`](firmware/overview.md) |
+
+(Modules are added as they are implemented.)
 
 ## Architecture
 
