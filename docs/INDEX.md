@@ -25,6 +25,12 @@ this index whenever you add, rename, or delete a public symbol.
 | `sccs.profile.fixed` | [`api/sccs.profile.fixed.md`](api/sccs.profile.fixed.md) | `FixedPointProfile` |
 | `sccs.profile.csv_replay` | [`api/sccs.profile.csv_replay.md`](api/sccs.profile.csv_replay.md) | `CSVProfile` |
 | `sccs.profile.orbital` | [`api/sccs.profile.orbital.md`](api/sccs.profile.orbital.md) | `OrbitalProfile` |
+| `sccs.web` | [`api/sccs.web.md`](api/sccs.web.md) | (subpackage overview) |
+| `sccs.web.server` | [`api/sccs.web.server.md`](api/sccs.web.server.md) | `create_app` |
+| `sccs.web.components` | [`api/sccs.web.components.md`](api/sccs.web.components.md) | `telemetry_card`, `control_panel` |
+| `sccs.web.profile_tab` | [`api/sccs.web.profile_tab.md`](api/sccs.web.profile_tab.md) | `layout`, `empty_map`, `make_map` |
+| `sccs.web.calibration_tab` | [`api/sccs.web.calibration_tab.md`](api/sccs.web.calibration_tab.md) | `layout`, `empty_scatter`, `make_scatter` |
+| `sccs.web.callbacks` | [`api/sccs.web.callbacks.md`](api/sccs.web.callbacks.md) | `register_callbacks`, `TelemetryBuffer` |
 
 (Modules are added as they are implemented.)
 
