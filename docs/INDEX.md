@@ -16,6 +16,8 @@ this index whenever you add, rename, or delete a public symbol.
 | --- | --- | --- |
 | `sccs` | [`api/sccs.md`](api/sccs.md) | `__version__` |
 | `sccs.protocol` | [`api/sccs.protocol.md`](api/sccs.protocol.md) | `crc8_sae_j1850`, `pack_setpoint`, `pack_reset_estop`, protocol constants |
+| `sccs.drivers.hccd` | [`api/sccs.drivers.hccd.md`](api/sccs.drivers.hccd.md) | `HCCDClient`, `amps_to_code`, `code_to_amps`, `BusLike` |
+| `sccs.drivers.magnetometer` | [`api/sccs.drivers.magnetometer.md`](api/sccs.drivers.magnetometer.md) | `MMC5983Driver`, register & sensitivity constants |
 
 (Modules are added as they are implemented.)
 
