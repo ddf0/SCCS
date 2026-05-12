@@ -1,0 +1,20 @@
+[Unit]
+Description=SCCS magnetic field control service
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+Type=simple
+User=root
+WorkingDirectory=/opt/sccs
+ExecStart=/usr/bin/python3 -m sccs.app --config /opt/sccs/config/default.yaml
+Restart=on-failure
+RestartSec=5s
+# Required for SCHED_FIFO on the control thread (best-effort in code,
+# but the capability has to be granted by systemd).
+AmbientCapabilities=CAP_SYS_NICE
+StandardOutput=journal
+StandardError=journal
+
+[Install]
+WantedBy=multi-user.target

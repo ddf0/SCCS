@@ -51,6 +51,7 @@ this index whenever you add, rename, or delete a public symbol.
 | Document | Topic |
 | --- | --- |
 | [`architecture/overview.md`](architecture/overview.md) | System architecture and dataflow |
+| [`deployment.md`](deployment.md) | Raspberry Pi deploy procedure |
 
 ## See also
 
