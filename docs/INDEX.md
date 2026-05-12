@@ -14,7 +14,8 @@ this index whenever you add, rename, or delete a public symbol.
 
 | Module | Page | Public symbols |
 | --- | --- | --- |
-| `sccs` | (top-level) | `__version__` |
+| `sccs` | [`api/sccs.md`](api/sccs.md) | `__version__` |
+| `sccs.protocol` | [`api/sccs.protocol.md`](api/sccs.protocol.md) | `crc8_sae_j1850`, `pack_setpoint`, `pack_reset_estop`, protocol constants |
 
 (Modules are added as they are implemented.)
 
@@ -23,6 +24,7 @@ this index whenever you add, rename, or delete a public symbol.
 | File | Page |
 | --- | --- |
 | `hccd.ino` (entry sketch) | [`firmware/overview.md`](firmware/overview.md) |
+| `protocol.h` / `protocol.cpp` | [`firmware/protocol.md`](firmware/protocol.md) |
 
 (Modules are added as they are implemented.)
 
